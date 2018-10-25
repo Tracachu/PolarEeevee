@@ -1,1 +1,1 @@
-worker: node polar.js
+worker: node bot.js
