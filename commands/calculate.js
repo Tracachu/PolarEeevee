@@ -6,7 +6,7 @@ exports.run = (bot, message, args, prefix) => {
     if(message.author.bot) return;
     let input = args.join(" ");
     if (!input) {
-        message.reply('Please provide a Math equasion for the calculator to solve!');
+        message.reply('Sorry, I cannot provide an answer without an equation!');
         return;
     }
 
@@ -16,14 +16,14 @@ exports.run = (bot, message, args, prefix) => {
     try {
         answer = math.eval(question);
     } catch (err) {
-        return message.reply(`**Invalid math equation:** ${err}`);
+        return message.reply(`**That... that's not math...** ${err}`);
     }
 
     const embed = new Discord.RichEmbed()
         .setThumbnail("https://i.imgur.com/4kXujAW.png")
         .setColor('RANDOM')
-        .addField("**Question:**", question, true)
-        .addField("**Answer:**", answer)
+        .addField("**Input:**", question, true)
+        .addField("**Output:**", answer)
         .setFooter(`Image made my MatthewJ217#3287`)
 
     message.channel.send({
