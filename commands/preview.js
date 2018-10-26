@@ -21,10 +21,7 @@ exports.run = (bot, message, args, prefix) => {
         .setColor("BLUE")
         .setTitle(`Pokedex results for ` + `\`\`\`${ucFirst(args.join(" "))}\`\`\``)
         .addField("Types:", p.types, true)
-        .addField("Height (M):", p.height_eu, true)
-        .addField("Weight (kg):", p.weight_eu, true)
-        .addField("Catch Rate:", p.catch_rate, true)
-        .addField("Leveling rate:", p.leveling_rate, true)
+        .addField("effectivness", p.types, true)
         .setThumbnail(`https://play.pokemonshowdown.com/sprites/xyani/${args.join(" ").toLowerCase()}.gif`)
         .setImage(`https://play.pokemonshowdown.com/sprites/xyani-shiny/${args.join(" ").toLowerCase()}.gif`);
         message.channel.send(embed)
