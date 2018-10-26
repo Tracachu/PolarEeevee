@@ -25,7 +25,8 @@ exports.run = (bot, message, args, prefix) => {
         .addField("Weight (kg):", p.weight_eu, true)
         .addField("Catch Rate:", p.catch_rate, true)
         .addField("Leveling rate:", p.leveling_rate, true)
-        .setThumbnail(`http://www.pokestadium.com/sprites/xy/${args.join(" ").toLowerCase()}.gif`)
+        .setThumbnail(`https://play.pokemonshowdown.com/sprites/xyani/${args.join(" ").toLowerCase()}.gif`)
+        .setImage(`https://play.pokemonshowdown.com/sprites/xyani-shiny/${args.join(" ").toLowerCase()}.gif`);
         message.channel.send(embed)
 
       });
