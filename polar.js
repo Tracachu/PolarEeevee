@@ -37,26 +37,12 @@ chan.send(embed)
 });
 
 bot.on("ready", async () => {
-bot.user.setPresence({ game: { name: `in over ${bot.guilds.size} servers | &help for help`, url: 'https://twitch.tv/monstercat', type: 1 } });
+bot.user.setPresence({ game: { name: `in over ${bot.guilds.size} servers | p!help for help`, url: 'https://twitch.tv/monstercat', type: 1 } });
 console.log(`-=-=-=-=-=${bot.user.tag}=-=-=-=-=-`)
 console.log(`Prefix: ${prefix}`)
 console.log(`OwnerID: ${ownerID}`)
 console.log("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
 })
-
-bot.on("message"), async message => {
-    if(message.author.bot) return;
-    if(message.channel.type === "dm") return;
-
-    let prefix = botconfig.prefix;
-    let messageArray = message.content.split (" ");
-    let cmd = messageArray[0];
-    let args = messageArray.slice(1);
-
-    if(cmd === `${prefix}hello`){
-        return message.channel.send("Hello!")
-    }
-}
 
 bot.on("message", message => {
 
@@ -77,4 +63,4 @@ bot.on("message", message => {
     }
 });
 
-bot.login(process.env.BOT_TOKEN);
+bot.login(settings.BOT_TOKEN);
