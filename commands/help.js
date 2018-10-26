@@ -28,6 +28,7 @@ exports.run = (bot, message, args, prefix) => {
             let Embed3 = new Discord.RichEmbed()
             .setColor("BLUE")
             .setTitle("Utility")
+            .addField(`${prefix}preview (Pokemon)`, "Gets the smol dex infomation of the pokemon you provided")            
             .addField(`${prefix}pokedex (Pokemon)`, "Gets the pokedex infomation of the pokemon you provided")
             .addField(`${prefix}overwatch (Username replace the # with -) (Platform pc | xbl | psn) (Region global | cn | kr | eu | us)`, "Gets the overwatch stats of the overwatch player you provided")
             .addField(`${prefix}fortnite (Username) (Platform | xb1 | psn | pc)`, `Sends you the infomation of the Fortnite user you provided`)
