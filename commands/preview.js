@@ -21,6 +21,7 @@ exports.run = (bot, message, args, prefix) => {
         .setColor("BLUE")
         .setTitle(`Pokedex results for ` + `\`\`\`${ucFirst(args.join(" "))}\`\`\``)
         .addField("Types:", p.types, true)
+        .addField("Egg Groups:", p.egg_group, true)
         .setThumbnail(`https://play.pokemonshowdown.com/sprites/xyani/${args.join(" ").toLowerCase()}.gif`)
         .setImage(`https://play.pokemonshowdown.com/sprites/xyani-shiny/${args.join(" ").toLowerCase()}.gif`);
         message.channel.send(embed)
