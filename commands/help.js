@@ -7,6 +7,7 @@ exports.run = (bot, message, args, prefix) => {
             let Embed1 = new Discord.RichEmbed()
             .setColor("BLUE")
             .setTitle("Fun")
+            .addfield(`Profile Picture drawn and colored by Qman434#3002!`)
             .addField(`${prefix}ping`, `Sends you the Latency of the bot in ms`)
             .addField(`${prefix}8ball (Question)`, `Answers your question with an 8ball.`)
             .addField(`${prefix}dice (Sides)`, `Rolls a dice with the same side that you provided the sides can be any number.`)
