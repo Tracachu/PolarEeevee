@@ -1,12 +1,14 @@
 const Discord = require("discord.js");
 const fs = require("fs");
 const music = require('telk-music');
+const cleverbot = require("cleverbot.io");
 let bot = new Discord.Client();
 
 let settings = require("./settings.json");
 
 let prefix = settings.prefix;
 let ownerID = settings.ownerID;
+let clever = new cleverbot("GS6xN3FmOdX3aAmg", "gigAgcYDhxvpl3mRkcm9bGIT28Z00pZO");
 
 music(bot, {
     apikey: 'AIzaSyChV72AqgUOWab694WT3zdK6EIbY0EGRuc', //dont show this to anyone!
@@ -51,6 +53,38 @@ bot.on("message", message => {
 
     if(message.author.bot) return;     
     if(!message.content.startsWith(prefix)) return;
+
+      //Initialize Cleverbot
+      clever.setNick("PlarEeveeBot");
+      clever.create(function (err, session) {
+  
+      //Cleverbot
+      if(message.content.startsWith(bot.user.toString())) {
+  
+              //The question
+              let askArgs = message.content.slice(22).trim().split(" ");
+  
+              //Start typing
+              message.channel.startTyping();
+  
+              //Ask the bot
+              clever.ask(askArgs.join(" "), function (err, response) { 
+                  //If there is an error
+                  if(err) console.log(err);
+  
+                  //Respond
+                  let embed = new Discord.RichEmbed()
+                  .setColor("BLUE")
+                  .setTitle(`${bot.user.username}`)
+                  .setThumbnail(bot.user.displayAvatarURL)
+                  .setDescription(`**${response}**`)
+                  message.channel.send(embed)
+  
+                  //Stop typing
+                  message.channel.stopTyping();
+              });
+          }
+      });
 
     try {
 
