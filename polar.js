@@ -51,12 +51,13 @@ bot.on("message", message => {
     let args = message.content.slice(prefix.length).trim().split(" ");
     let cmd = args.shift().toLowerCase();
 
-    if(message.author.bot) return;     
-    if(!message.content.startsWith(prefix)) return;
-
-      //Initialize Cleverbot
+    if(message.author.bot) return;   
+    
+          //Initialize Cleverbot
       clever.setNick("PlarEeveeBot");
       clever.create(function (err, session) {
+          
+          if(err) return console.log(err);
   
       //Cleverbot
       if(message.content.startsWith(bot.user.toString())) {
@@ -85,6 +86,9 @@ bot.on("message", message => {
               });
           }
       });
+
+    
+    if(!message.content.startsWith(prefix)) return;
 
     try {
 
