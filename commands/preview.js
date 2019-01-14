@@ -10,6 +10,11 @@ exports.run = (bot, message, args, prefix) => {
 
         return wordOne.charAt(0).toUpperCase() + args[0].slice(1) && wordTwo.charAt(0).toUpperCase() + args[1].slice(1);
     }
+    
+        function ucFirst(wordOne) {
+
+        return wordOne.charAt(0).toUpperCase() + args[0].slice(1);
+    }
 
 
         let p = pokemonData[capitalLetters(args[0], args[1])][0];
