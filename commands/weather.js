@@ -1,4 +1,5 @@
 
+
 const Discord = require("discord.js");
 const weather = require("weather-js");
 
@@ -6,7 +7,7 @@ exports.run = (bot, message, args, prefix) => {
 
     if(message.author.bot) return;
 
-    weather.find({search: args.join(" "), degreeType: 'C'}, function(err, result) {
+    weather.find({search: args.join(" "), degreeType: 'F'}, function(err, result) {
         if (err) message.channel.send(err);
         if (result === undefined || result.length === 0) {
             message.channel.send('**Please enter a valid location!**')
