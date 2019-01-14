@@ -11,6 +11,7 @@ exports.run = (bot, message, args, prefix) => {
         return wordOne.charAt(0).toUpperCase() + wordOne.slice(1);
     }
     
+    /*
             function ucSecond(wordTwo) {
 
         return wordTwo.charAt(0).toUpperCase() + wordTwo.slice(1);
@@ -20,6 +21,7 @@ exports.run = (bot, message, args, prefix) => {
 
         return wordThree.charAt(0).toUpperCase() + wordThree.slice(1);
     }
+    */
     
 
 
