@@ -26,8 +26,8 @@ exports.run = (bot, message, args, prefix) => {
         let p;
     
         if(!args[1]) p = pokemonData[`${ucFirst(args[0])}`][0];
-        if(!args[2]) p = pokemonData[`${ucFirst(args[0])}_${ucSecond(args[1])}`][0];
-        if(args[2]) p = pokemonData[`${ucFirst(args[0])}_${ucSecond(args[1])}_${ucThird(args[2])}`][0];
+        if((!args[2]) && (args[1])) p = pokemonData[`${ucFirst(args[0])}_${ucSecond(args[1])}`][0];
+        if((args[2]) && (args[1]) && (args[0])) p = pokemonData[`${ucFirst(args[0])}_${ucSecond(args[1])}_${ucThird(args[2])}`][0];
 
 
         let embed = new Discord.RichEmbed()
