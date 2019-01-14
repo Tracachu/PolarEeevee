@@ -15,6 +15,8 @@ exports.run = (bot, message, args, prefix) => {
 
         return wordOne.charAt(0).toUpperCase() + args[0].slice(1);
     }
+    
+    console.log(capitalLetters(args[0], args[1]));
 
 
         let p = pokemonData[capitalLetters(args[0], args[1])][0];
