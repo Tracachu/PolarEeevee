@@ -5,21 +5,29 @@ let pokemonData = require("./previewData.json");
 exports.run = (bot, message, args, prefix) => {
 
     if(message.author.bot) return;
-
-    function capitalLetters(wordOne, wordTwo) {
-
-        return wordOne.charAt(0).toUpperCase() + args[0].slice(1) && wordTwo.charAt(0).toUpperCase() + args[1].slice(1);
-    }
     
         function ucFirst(wordOne) {
 
-        return wordOne.charAt(0).toUpperCase() + args[0].slice(1);
+        return wordOne.charAt(0).toUpperCase() + wordOne.slice(1);
     }
     
-    console.log(capitalLetters(args[0], args[1]));
+            function ucSecond(wordTwo) {
+
+        return wordTwo.charAt(0).toUpperCase() + wordTwo.slice(1);
+    }
+    
+                function ucThird(wordThree) {
+
+        return wordThree.charAt(0).toUpperCase() + wordThree.slice(1);
+    }
+    
 
 
-        let p = pokemonData[capitalLetters(args[0], args[1])][0];
+        let p;
+    
+        if(!args[1]) p = pokemonData[`${ucFirst(args[0])}`][0];
+        if(!args[2]) p = pokemonData[`${ucFirst(args[0])}_${ucSecond(args[1])}`][0];
+        if(args[2]) p = pokemonData[`${ucFirst(args[0])}_${ucSecond(args[1])}_${ucThird(args[2])}`][0];
 
 
         let embed = new Discord.RichEmbed()
