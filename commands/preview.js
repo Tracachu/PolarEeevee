@@ -1,6 +1,6 @@
 
 const Discord = require("discord.js");
-let pokemonData = require("previewData.json");
+let pokemonData = require("./previewData.json");
 
 exports.run = (bot, message, args, prefix) => {
 
