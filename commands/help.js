@@ -7,15 +7,13 @@ exports.run = (bot, message, args, prefix) => {
             let Embed1 = new Discord.RichEmbed()
             .setColor("BLUE")
             .setTitle("Fun")
-            .addfield(`Profile Picture drawn and colored by Qman434#3002!`)
             .addField(`${prefix}ping`, `Sends you the Latency of the bot in ms`)
             .addField(`${prefix}8ball (Question)`, `Answers your question with an 8ball.`)
             .addField(`${prefix}dice (Sides)`, `Rolls a dice with the same side that you provided the sides can be any number.`)
             .addField(`${prefix}gif (Tag)`, "Searches for a gif with the tag you supplied. This command will only work in an NSFW channel no DM's or SFW channels.")
             .addField(`${prefix}cat`, `Sends a cat gif`)
             .addField(`${prefix}dog`, "Sends a dog gif")
-            message.channel.send(Embed1)
-        
+            message.author.send(Embed1);   
 
             let Embed2 = new Discord.RichEmbed()
             .setColor("BLUE")
@@ -23,24 +21,24 @@ exports.run = (bot, message, args, prefix) => {
             .addField(`${prefix}calculate (Equation)`, `Solves the equation you gave Polar. It works as a Scientific Calculator too`)
             .addField(`${prefix}weather (Location)`, "Gets the current weather infomation for the location you provided")
             .addField(`${prefix}news (Subject)`, `Sends the latest news on the subject you chose`)
-            message.channel.send(Embed2)
+            message.author.send(Embed2)
         
 
             let Embed3 = new Discord.RichEmbed()
             .setColor("BLUE")
             .setTitle("Utility")
-            .addField(`${prefix}preview (Pokemon)`, "Gets the smol dex infomation of the pokemon you provided")            
+            .addField(`${prefix}preview (Pokemon)`, "Gets the smol dex infomation of the pokemon you provided")
             .addField(`${prefix}pokedex (Pokemon)`, "Gets the pokedex infomation of the pokemon you provided")
             .addField(`${prefix}overwatch (Username replace the # with -) (Platform pc | xbl | psn) (Region global | cn | kr | eu | us)`, "Gets the overwatch stats of the overwatch player you provided")
             .addField(`${prefix}fortnite (Username) (Platform | xb1 | psn | pc)`, `Sends you the infomation of the Fortnite user you provided`)
-            message.channel.send(Embed3)
+            message.author.send(Embed3)
         
 
             let Embed4 = new Discord.RichEmbed()
             .setColor("BLUE")
             .setTitle("Misc")
             .addField("Make a channel called `bot-hell` for join messages from Polar", "-=-=-=-=-")
-            message.channel.send(Embed4)
+            message.author.send(Embed4)
         
             let Embed5 = new Discord.RichEmbed()
             .setColor("BLUE")
@@ -50,7 +48,7 @@ exports.run = (bot, message, args, prefix) => {
             .addField(`${prefix}mute (@mention)`, `Mutes the selected user Mute Members permision needed`)
             .addField(`${prefix}unmute (@mention)`, `Unmutes the selected user Mute Members permision needed`)
             .addField(`${prefix}prune`, "Bulk deletes the messages in your channel 100 at a time")
-            message.channel.send(Embed5)
+            message.author.send(Embed5)
 
             let Embed6 = new Discord.RichEmbed()
             .setTitle("Music")
@@ -67,7 +65,7 @@ exports.run = (bot, message, args, prefix) => {
             .addField(`${prefix}loop [On/Off]`, `Turns loop on or off for your server`)
             .addField(`${prefix}np`, `Tells you waht is nop playing`)
             .addField(`${prefix}lyrics`, `Gets the lyrics for the playing song. Lyrics will not be found if it exceeds the Rich Embed word count`)
-            message.channel.send(Embed6)
+            message.author.send(Embed6)
 
         
 
