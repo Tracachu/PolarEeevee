@@ -39,7 +39,7 @@ chan.send(embed)
 });
 
 bot.on("ready", async () => {
-bot.user.setPresence({ game: { name: `in over ${bot.guilds.size} servers | p!help for help`, url: 'https://twitch.tv/monstercat', type: 1 } });
+bot.user.setPresence({ game: { name: `in over ${bot.guilds.size} servers | &help for help`, url: 'https://twitch.tv/monstercat', type: 1 } });
 console.log(`-=-=-=-=-=${bot.user.tag}=-=-=-=-=-`)
 console.log(`Prefix: ${prefix}`)
 console.log(`OwnerID: ${ownerID}`)
