@@ -96,8 +96,8 @@ bot.on("message", message => {
         commandFile.run(bot, message, args, prefix);
 
     } catch (e) {
-        //console.log(e.stack); // Use this if thereis a error you cant solve
-        return
+        console.log(e.stack); // Use this if thereis a error you cant solve
+        //return
     }
 });
 
