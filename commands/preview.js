@@ -13,7 +13,7 @@ exports.run = async (bot, message, args) => {
  const poke = require("../previewData.json");
  let p = poke[`${args.join("_").toLowerCase()}`][0];
 
- if(message.content.includes("Mega")) {
+ if(message.content.includes("mega")) {
 
     let embed = new Discord.RichEmbed()
     .setColor("BLUE")
