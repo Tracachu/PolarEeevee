@@ -1,49 +1,50 @@
 
 const Discord = require("discord.js");
-let pokemonData = require("./previewData.json");
 
 exports.run = (bot, message, args, prefix) => {
 
-    if(message.author.bot) return;
-    
-        function ucFirst(wordOne) {
+   //Constants 
+const Discord = require("discord.js");
 
-        return wordOne.charAt(0).toUpperCase() + wordOne.slice(1);
-    }
-    
-    /*
-            function ucSecond(wordTwo) {
+exports.run = async (bot, message, args) => {
 
-        return wordTwo.charAt(0).toUpperCase() + wordTwo.slice(1);
-    }
-    
-                function ucThird(wordThree) {
+    if(!args.join(" ")) return message.channel.send(":no_entry_sign: | Please specify a pokemon name.");
 
-        return wordThree.charAt(0).toUpperCase() + wordThree.slice(1);
-    }
-    */
-    
+ const poke = require("../previewData.json");
+ let p = poke[`${args.join("_").toLowerCase()}`][0];
 
+ if(message.content.includes("Mega")) {
 
-        let p;
-    
-        if(!args[1]) p = pokemonData[`${ucFirst(args[0])}`][0];
-        if((!args[2]) && (args[1])) p = pokemonData[`${ucFirst(args[0])}_${ucSecond(args[1])}`][0];
-        if((args[2]) && (args[1]) && (args[0])) p = pokemonData[`${ucFirst(args[0])}_${ucSecond(args[1])}_${ucThird(args[2])}`][0];
+    let embed = new Discord.RichEmbed()
+    .setColor("BLUE")
+    .setTitle(`Pokedex results for ` + `\`\`\`${args.join(" ")}\`\`\``)
+    .addField("National Dex Number:", p.National_Dex || "N/A", true)
+    .addField("Primary Type:", p.Primary_Type || "N/A", true) 
+    .addField("Secondary Type:", p.Secondary_Type || "N/A", true) 
+    .addField("Rarity:", p.Rarity || "N/A", true) 
+    .addField("Classification:", p.Classification || "N/A", true) 
+    .addField("Evolves by:", p.Evolves_by || "N/A", true) 
+    .addField("Evolves into:", p.evolves_Into || "N/A", true) 
+   message.channel.send(embed);
 
+    return;
 
-        let embed = new Discord.RichEmbed()
-        .setColor("BLUE")
-        .setTitle(`Pokedex results for ` + `\`\`\`${ucFirst(args.join(" "))}\`\`\``)
-        .addField("National Dex Number:", p.National_dex, true)
-        .addField("Primary Type:", p.primary_type, true)
-        .addField("Secondary Type:", p.secondary_type, true)
-        .addField("Rarity:", p.rarity, true)
-        .addField("Classification:", p.Classification, true)
-        .addField("Evolves by:", p.evolves_by, true)
-        .addField("Evolves into:", p.evolves_into, true)
-        .setThumbnail(`https://play.pokemonshowdown.com/sprites/xyani/${args.join(" ").toLowerCase()}.gif`)
-        .setImage(`https://play.pokemonshowdown.com/sprites/xyani-shiny/${args.join(" ").toLowerCase()}.gif`);
-        message.channel.send(embed)
+ }
+
+ let embed = new Discord.RichEmbed()
+ .setColor("BLUE")
+ .setTitle(`Pokedex results for ` + `\`\`\`${args.join(" ")}\`\`\``)
+ .addField("National Dex Number:", p.National_Dex || "N/A", true)
+ .addField("Primary Type:", p.Primary_Type || "N/A", true) 
+ .addField("Secondary Type:", p.Secondary_Type || "N/A", true) 
+ .addField("Rarity:", p.Rarity || "N/A", true) 
+ .addField("Classification:", p.Classification || "N/A", true) 
+ .addField("Evolves by:", p.Evolves_by || "N/A", true) 
+ .addField("Evolves into:", p.evolves_Into || "N/A", true) 
+ .setThumbnail(`https://play.pokemonshowdown.com/sprites/xyani/${args.join(" ").toLowerCase()}.gif`)
+ .setImage(`https://play.pokemonshowdown.com/sprites/xyani-shiny/${args.join(" ").toLowerCase()}.gif`)
+message.channel.send(embed);
+
+};
 
 }
