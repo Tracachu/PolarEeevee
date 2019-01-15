@@ -24,7 +24,7 @@ exports.run = async (bot, message, args) => {
     .addField("Rarity:", p.Rarity || "N/A", true) 
     .addField("Classification:", p.Classification || "N/A", true) 
     .addField("Evolves by:", p.Evolves_by || "N/A", true) 
-    .addField("Evolves into:", p.Evolves_into || "N/A", true) 
+    .addField("Evolves into:", p.Evolves_Into || "N/A", true) 
    message.channel.send(embed);
 
     return;
@@ -40,7 +40,7 @@ exports.run = async (bot, message, args) => {
  .addField("Rarity:", p.Rarity || "N/A", true) 
  .addField("Classification:", p.Classification || "N/A", true) 
  .addField("Evolves by:", p.Evolves_by || "N/A", true) 
- .addField("Evolves into:", p.Evolves_into || "N/A", true) 
+ .addField("Evolves into:", p.Evolves_Into || "N/A", true) 
  .setThumbnail(`https://play.pokemonshowdown.com/sprites/xyani/${args.join(" ").toLowerCase()}.gif`)
  .setImage(`https://play.pokemonshowdown.com/sprites/xyani-shiny/${args.join(" ").toLowerCase()}.gif`)
 message.channel.send(embed);
