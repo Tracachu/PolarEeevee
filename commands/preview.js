@@ -11,7 +11,7 @@ exports.run = async (bot, message, args) => {
     if(!args.join(" ")) return message.channel.send(":no_entry_sign: | Please specify a pokemon name.");
 
  const poke = require("../previewData.json");
- let p = poke[`${args.join("_").toLowerCase()}`][0];
+ let p = poke[`${args.toLowerCase().join("_")}`][0];
 
  if(message.content.includes("mega")) {
 
