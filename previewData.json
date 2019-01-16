@@ -35,7 +35,7 @@
          "National_Dex": "#003"
       }
    ],
-   "mega_venusaur": [
+   "venusaur_mega": [
       {
          "Primary_Type": "Grass",
          "Secondary_Type": "Poison",
@@ -83,7 +83,7 @@
          "National_Dex": "#006"
       }
    ],
-   "mega_charizard_x": [
+   "charizard_megax": [
       {
          "Primary_Type": "Fire",
          "Secondary_Type": "Dragon",
@@ -95,7 +95,7 @@
          "National_Dex": "#006 Mega X"
       }
    ],
-   "mega_charizard_y": [
+   "charizard_megay": [
       {
          "Primary_Type": "Fire",
          "Secondary_Type": "Flying",
@@ -143,7 +143,7 @@
          "National_Dex": "#009"
       }
    ],
-   "mega_blastoise": [
+   "blastoise_mega": [
       {
          "Primary_Type": "Water",
          "Secondary_Type": "",
@@ -227,7 +227,7 @@
          "National_Dex": "#015"
       }
    ],
-   "mega_beedrill": [
+   "beedrill_mega": [
       {
          "Primary_Type": "Bug",
          "Secondary_Type": "Poison",
@@ -275,7 +275,7 @@
          "National_Dex": "#018"
       }
    ],
-   "mega_pidgeot": [
+   "pidgeot_mega": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "Flying",
@@ -299,7 +299,7 @@
          "National_Dex": "#019"
       }
    ],
-   "alolan_rattata": [
+   "rattata_alola": [
       {
          "Primary_Type": "Dark",
          "Secondary_Type": "Normal",
@@ -323,7 +323,7 @@
          "National_Dex": "#020"
       }
    ],
-   "alolan_raticate": [
+   "raticate_alola": [
       {
          "Primary_Type": "Dark",
          "Secondary_Type": "Normal",
@@ -407,7 +407,7 @@
          "National_Dex": "#026"
       }
    ],
-   "alolan_raichu": [
+   "raichu_alola": [
       {
          "Primary_Type": "Electric",
          "Secondary_Type": "Psychic",
@@ -431,7 +431,7 @@
          "National_Dex": "#027"
       }
    ],
-   "alolan_sandshrew": [
+   "sandshrew_alola": [
       {
          "Primary_Type": "Ice",
          "Secondary_Type": "Steel",
@@ -455,7 +455,7 @@
          "National_Dex": "#028"
       }
    ],
-   "alolan_sandslash": [
+   "sandslash_alola": [
       {
          "Primary_Type": "Ice",
          "Secondary_Type": "Steel",
@@ -587,7 +587,7 @@
          "National_Dex": "#037"
       }
    ],
-   "alolan_vulpix": [
+   "vulpix_alola": [
       {
          "Primary_Type": "Ice",
          "Secondary_Type": "",
@@ -611,7 +611,7 @@
          "National_Dex": "#038"
       }
    ],
-   "alolan_ninetales": [
+   "ninetales_alola": [
       {
          "Primary_Type": "Ice",
          "Secondary_Type": "Fairy",
@@ -767,7 +767,7 @@
          "National_Dex": "#050"
       }
    ],
-   "alolan_diglett": [
+   "diglett_alola": [
       {
          "Primary_Type": "Ground",
          "Secondary_Type": "Steel",
@@ -791,7 +791,7 @@
          "National_Dex": "#051"
       }
    ],
-   "alolan_dugtrio": [
+   "dugtrio_alola": [
       {
          "Primary_Type": "Ground",
          "Secondary_Type": "Steel",
@@ -815,7 +815,7 @@
          "National_Dex": "#052"
       }
    ],
-   "alolan_meowth": [
+   "meowth_alola": [
       {
          "Primary_Type": "Dark",
          "Secondary_Type": "",
@@ -839,7 +839,7 @@
          "National_Dex": "#053"
       }
    ],
-   "alolan_persian": [
+   "persian_alola": [
       {
          "Primary_Type": "Dark",
          "Secondary_Type": "",
@@ -942,7 +942,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "Poliwag",
-         "Evolves_by": "Water Stone ***OR*** Trade w/King's Rock",
+         "Evolves_by": "Water Stone ***OR*** Trade holding King's Rock",
          "Evolves_Into": "Poliwrath ***OR*** Politoed",
          "National_Dex": "#061"
       }
@@ -991,11 +991,11 @@
          "Classification": "",
          "Evolves_from": "Abra -> Kadabra",
          "Evolves_by": "Mega",
-         "Evolves_Into": "Mega_Alakazam",
+         "Evolves_Into": "Mega Alakazam",
          "National_Dex": "#065"
       }
    ],
-   "mega_alakazam": [
+   "alakazam_mega": [
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
@@ -1115,7 +1115,7 @@
          "National_Dex": "#074"
       }
    ],
-   "alolan_geodude": [
+   "geodude_alola": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Electric",
@@ -1139,7 +1139,7 @@
          "National_Dex": "#075"
       }
    ],
-   "alolan_graveler": [
+   "graveler_alola": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Electric",
@@ -1163,7 +1163,7 @@
          "National_Dex": "#076"
       }
    ],
-   "alolan_golem": [
+   "golem_alola": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Electric",
@@ -1206,7 +1206,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Lvl 37 ***OR*** Trade w/King's Rock",
+         "Evolves_by": "Lvl 37 ***OR*** Trade holding King's Rock",
          "Evolves_Into": "Slowbro ***OR*** Slowking",
          "National_Dex": "#079"
       }
@@ -1223,7 +1223,7 @@
          "National_Dex": "#080"
       }
    ],
-   "mega_slowbro": [
+   "slowbro_mega": [
       {
          "Primary_Type": "Water",
          "Secondary_Type": "Psychic",
@@ -1331,7 +1331,7 @@
          "National_Dex": "#088"
       }
    ],
-   "alolan_grimer": [
+   "grimer_alola": [
       {
          "Primary_Type": "Poison",
          "Secondary_Type": "Dark",
@@ -1355,7 +1355,7 @@
          "National_Dex": "#089"
       }
    ],
-   "alolan_muk": [
+   "muk_alola": [
       {
          "Primary_Type": "Poison",
          "Secondary_Type": "Dark",
@@ -1427,7 +1427,7 @@
          "National_Dex": "#094"
       }
    ],
-   "mega_gengar": [
+   "gengar_mega": [
       {
          "Primary_Type": "Ghost",
          "Secondary_Type": "Poison",
@@ -1446,7 +1446,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Trade w/Metal_Coat",
+         "Evolves_by": "Trade holding Metal Coat",
          "Evolves_Into": "Steelix",
          "National_Dex": "#095"
       }
@@ -1547,7 +1547,7 @@
          "National_Dex": "#103"
       }
    ],
-   "alolan_exeggutor": [
+   "exeggutor_alola": [
       {
          "Primary_Type": "Grass",
          "Secondary_Type": "Dragon",
@@ -1583,7 +1583,7 @@
          "National_Dex": "#105"
       }
    ],
-   "alolan_marowak": [
+   "marowak_alola": [
       {
          "Primary_Type": "Fire",
          "Secondary_Type": "Ghost",
@@ -1626,7 +1626,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Learn Rollup and lvl",
+         "Evolves_by": "Learn Rollup and level",
          "Evolves_Into": "Lickilicky",
          "National_Dex": "#108"
       }
@@ -1674,7 +1674,7 @@
          "Rarity": "Uncommon",
          "Classification": "",
          "Evolves_from": "Rhyhorn",
-         "Evolves_by": "Trade w/Protector",
+         "Evolves_by": "Trade holding Protector",
          "Evolves_Into": "Rhyperior",
          "National_Dex": "#112"
       }
@@ -1698,7 +1698,7 @@
          "Rarity": "Rare",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Learn Ancient Power and lvl",
+         "Evolves_by": "Learn Ancient Power and level",
          "Evolves_Into": "Tangrowth",
          "National_Dex": "#114"
       }
@@ -1715,7 +1715,7 @@
          "National_Dex": "#115"
       }
    ],
-   "mega_kangaskhan": [
+   "kangaskhan_mega": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "",
@@ -1746,7 +1746,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "Horsea",
-         "Evolves_by": "Trade w/Dragon Scale",
+         "Evolves_by": "Trade holding Dragon Scale",
          "Evolves_Into": "Kingrdra",
          "National_Dex": "#117"
       }
@@ -1818,7 +1818,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Trade w/Metal_Coat",
+         "Evolves_by": "Trade holding Metal_Coat",
          "Evolves_Into": "Scizor",
          "National_Dex": "#123"
       }
@@ -1842,7 +1842,7 @@
          "Rarity": "Rare",
          "Classification": "",
          "Evolves_from": "Elekid",
-         "Evolves_by": "Trade w/Electrizer ",
+         "Evolves_by": "Trade holding Electrizer ",
          "Evolves_Into": "Electivire",
          "National_Dex": "#125"
       }
@@ -1854,7 +1854,7 @@
          "Rarity": "Rare",
          "Classification": "",
          "Evolves_from": "Magby",
-         "Evolves_by": "Trade w/Magmarizer",
+         "Evolves_by": "Trade holding Magmarizer",
          "Evolves_Into": "Magmortar",
          "National_Dex": "#126"
       }
@@ -1867,11 +1867,11 @@
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "Mega",
-         "Evolves_Into": "Mega_Pinsir",
+         "Evolves_Into": "Mega Pinsir",
          "National_Dex": "#127"
       }
    ],
-   "mega_pinsir": [
+   "pinsir_mega": [
       {
          "Primary_Type": "Bug",
          "Secondary_Type": "Flying",
@@ -1919,7 +1919,7 @@
          "National_Dex": "#130"
       }
    ],
-   "mega_gyarados ": [
+   "gyarados_mega": [
       {
          "Primary_Type": "Water",
          "Secondary_Type": "Dark",
@@ -2010,7 +2010,7 @@
          "Rarity": "Rare",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Trade w/Upgrade",
+         "Evolves_by": "Trade holding Upgrade",
          "Evolves_Into": "Porygon2",
          "National_Dex": "#137"
       }
@@ -2075,7 +2075,7 @@
          "National_Dex": "#142"
       }
    ],
-   "mega_aerodactyl": [
+   "aerodactyl_mega": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Flying",
@@ -2183,7 +2183,7 @@
          "National_Dex": "#150"
       }
    ],
-   "mega_mewtwo_x": [
+   "mewtwo_megax": [
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "Fighting",
@@ -2192,10 +2192,10 @@
          "Evolves_from": "Mewtwo",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
-         "National_Dex": "#150 Mega_X"
+         "National_Dex": "#150 Mega X"
       }
    ],
-   "mega_mewtwo_y": [
+   "mewtwo_megay": [
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
@@ -2204,7 +2204,7 @@
          "Evolves_from": "Mewtwo",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
-         "National_Dex": "#150 Mega_Y"
+         "National_Dex": "#150 Mega Y"
       }
    ],
    "mew": [
@@ -2579,7 +2579,7 @@
          "National_Dex": "#181"
       }
    ],
-   "mega_ampharos": [
+   "ampharos_mega": [
       {
          "Primary_Type": "Electric",
          "Secondary_Type": "Dragon",
@@ -2694,7 +2694,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Learn Double Hit and lvl",
+         "Evolves_by": "Learn Double Hit and level",
          "Evolves_Into": "Ambipom",
          "National_Dex": "#190"
       }
@@ -2730,7 +2730,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Learn Ancient Power and lvl",
+         "Evolves_by": "Learn Ancient Power and level",
          "Evolves_Into": "Yanmega",
          "National_Dex": "#193"
       }
@@ -2823,7 +2823,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2835,7 +2835,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2847,7 +2847,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2859,7 +2859,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2871,7 +2871,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2895,7 +2895,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2907,7 +2907,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2919,7 +2919,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2931,7 +2931,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2943,7 +2943,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2955,7 +2955,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2967,7 +2967,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2979,7 +2979,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -2991,7 +2991,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3003,7 +3003,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3015,7 +3015,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3027,7 +3027,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3039,7 +3039,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3051,7 +3051,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3063,7 +3063,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3075,7 +3075,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3087,7 +3087,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3099,7 +3099,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3111,7 +3111,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3123,7 +3123,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3135,7 +3135,7 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3143,11 +3143,11 @@
          "National_Dex": "#201 !"
       }
    ],
-   "unown_?": [
+   "unown_question": [
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "Not_Implemented",
+         "Rarity": "Not Implemented",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
@@ -3239,7 +3239,7 @@
          "National_Dex": "#208"
       }
    ],
-   "mega_steelix": [
+   "steelix_mega": [
       {
          "Primary_Type": "Steel",
          "Secondary_Type": "Ground",
@@ -3299,7 +3299,7 @@
          "National_Dex": "#212"
       }
    ],
-   "mega_scizor": [
+   "scizor_mega": [
       {
          "Primary_Type": "Bug",
          "Secondary_Type": "Steel",
@@ -3335,7 +3335,7 @@
          "National_Dex": "#214"
       }
    ],
-   "mega_heracross": [
+   "heracross_mega": [
       {
          "Primary_Type": "Bug",
          "Secondary_Type": "Fighting",
@@ -3426,7 +3426,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "Piloswine",
-         "Evolves_by": "Learn Ancient Power and Lvl ",
+         "Evolves_by": "Learn Ancient Power and level ",
          "Evolves_Into": "Mamoswine",
          "National_Dex": "#221"
       }
@@ -3527,7 +3527,7 @@
          "National_Dex": "#229"
       }
    ],
-   "mega_houndoom": [
+   "houndoom_mega": [
       {
          "Primary_Type": "Dark",
          "Secondary_Type": "Fire",
@@ -3582,7 +3582,7 @@
          "Rarity": "Rare",
          "Classification": "",
          "Evolves_from": "Porygon",
-         "Evolves_by": "Trade w/Dubious Disc",
+         "Evolves_by": "Trade holding Dubious Disc",
          "Evolves_Into": "Porygon-Z",
          "National_Dex": "#233"
       }
@@ -3767,7 +3767,7 @@
          "National_Dex": "#248"
       }
    ],
-   "mega_tyranitar": [
+   "tyranitar_mega": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Dark",
@@ -3851,7 +3851,7 @@
          "National_Dex": "#254"
       }
    ],
-   "mega_sceptile": [
+   "sceptile_mega": [
       {
          "Primary_Type": "Grass",
          "Secondary_Type": "Dragon",
@@ -3899,7 +3899,7 @@
          "National_Dex": "#257"
       }
    ],
-   "mega_blaziken": [
+   "blaziken_mega": [
       {
          "Primary_Type": "Fire",
          "Secondary_Type": "Fighting",
@@ -3947,7 +3947,7 @@
          "National_Dex": "#260"
       }
    ],
-   "mega_swampert": [
+   "swampert_mega": [
       {
          "Primary_Type": "Water",
          "Secondary_Type": "Ground",
@@ -4223,7 +4223,7 @@
          "National_Dex": "#282"
       }
    ],
-   "mega_gardevoir": [
+   "gardevoir_mega": [
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "Fairy",
@@ -4475,7 +4475,7 @@
          "National_Dex": "#302"
       }
    ],
-   "mega_sableye": [
+   "sableye_mega": [
       {
          "Primary_Type": "Dark",
          "Secondary_Type": "Ghost",
@@ -4499,7 +4499,7 @@
          "National_Dex": "#303"
       }
    ],
-   "mega_mawile": [
+   "mawile_mega": [
       {
          "Primary_Type": "Steel ",
          "Secondary_Type": "Fairy",
@@ -4547,7 +4547,7 @@
          "National_Dex": "#306"
       }
    ],
-   "mega_aggron": [
+   "aggron_mega": [
       {
          "Primary_Type": "Steel",
          "Secondary_Type": "",
@@ -4583,7 +4583,7 @@
          "National_Dex": "#308"
       }
    ],
-   "mega_medicham": [
+   "medicham_mega": [
       {
          "Primary_Type": "Fighting",
          "Secondary_Type": "Psychic",
@@ -4619,7 +4619,7 @@
          "National_Dex": "#310"
       }
    ],
-   "mega_manectric": [
+   "manectric_mega": [
       {
          "Primary_Type": "Electric",
          "Secondary_Type": "",
@@ -4739,7 +4739,7 @@
          "National_Dex": "#319"
       }
    ],
-   "mega_sharpedo": [
+   "sharpedo_mega": [
       {
          "Primary_Type": "Water",
          "Secondary_Type": "Dark",
@@ -4799,7 +4799,7 @@
          "National_Dex": "#323"
       }
    ],
-   "mega_camerupt": [
+   "camerupt_mega": [
       {
          "Primary_Type": "Fire",
          "Secondary_Type": "Ground",
@@ -4943,7 +4943,7 @@
          "National_Dex": "#334"
       }
    ],
-   "mega_altaria": [
+   "altaria_mega": [
       {
          "Primary_Type": "Dragon",
          "Secondary_Type": "Fairy",
@@ -5130,7 +5130,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Trade w/Prism Scale",
+         "Evolves_by": "Trade holding Prism Scale",
          "Evolves_Into": "Milotic",
          "National_Dex": "#349"
       }
@@ -5231,7 +5231,7 @@
          "National_Dex": "#354"
       }
    ],
-   "mega_banette": [
+   "banette_mega": [
       {
          "Primary_Type": "Ghost",
          "Secondary_Type": "",
@@ -5262,7 +5262,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "Duskull",
-         "Evolves_by": "Trade w/Reaper Cloth",
+         "Evolves_by": "Trade holding Reaper Cloth",
          "Evolves_Into": "Dusknoir",
          "National_Dex": "#356"
       }
@@ -5303,7 +5303,7 @@
          "National_Dex": "#359"
       }
    ],
-   "mega_absol": [
+   "absol_mega": [
       {
          "Primary_Type": "Dark",
          "Secondary_Type": "",
@@ -5351,7 +5351,7 @@
          "National_Dex": "#362"
       }
    ],
-   "mega_glalie": [
+   "glalie_mega": [
       {
          "Primary_Type": "Ice",
          "Secondary_Type": "",
@@ -5406,7 +5406,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Trade w/Deep Sea Tooth ***OR*** w/Deep Sea Scale",
+         "Evolves_by": "Trade holding Deep Sea Tooth ***OR*** holding Deep Sea Scale",
          "Evolves_Into": "Huntail ***OR*** Gorebyss",
          "National_Dex": "#366"
       }
@@ -5495,7 +5495,7 @@
          "National_Dex": "#373"
       }
    ],
-   "mega_salamence": [
+   "salamence_mega": [
       {
          "Primary_Type": "Dragon",
          "Secondary_Type": "Flying",
@@ -5543,7 +5543,7 @@
          "National_Dex": "#376"
       }
    ],
-   "mega_metagross": [
+   "metagross_mega": [
       {
          "Primary_Type": "Steel",
          "Secondary_Type": "Psychic",
@@ -5603,7 +5603,7 @@
          "National_Dex": "#380"
       }
    ],
-   "mega_latias": [
+   "latias_mega": [
       {
          "Primary_Type": "Dragon",
          "Secondary_Type": "Psychic",
@@ -5627,7 +5627,7 @@
          "National_Dex": "#381"
       }
    ],
-   "mega_latios": [
+   "latios_mega": [
       {
          "Primary_Type": "Dragon",
          "Secondary_Type": "Psychic",
@@ -5651,7 +5651,7 @@
          "National_Dex": "#382"
       }
    ],
-   "primal_kyogre": [
+   "kyogre_primal": [
       {
          "Primary_Type": "Water",
          "Secondary_Type": "",
@@ -5675,7 +5675,7 @@
          "National_Dex": "#383"
       }
    ],
-   "primal_groudon": [
+   "groudon_primal": [
       {
          "Primary_Type": "Ground",
          "Secondary_Type": "Fire",
@@ -5699,7 +5699,7 @@
          "National_Dex": "#384"
       }
    ],
-   "mega_rayquaza": [
+   "rayquaza_mega": [
       {
          "Primary_Type": "Dragon",
          "Secondary_Type": "Flying",
@@ -5727,11 +5727,11 @@
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
-         "Rarity": "",
-         "Classification": "",
+         "Rarity": "Mythic",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#386"
       }
    ],
@@ -6134,12 +6134,12 @@
    "wormadam": [
       {
          "Primary_Type": "Bug",
-         "Secondary_Type": "???",
-         "Rarity": "",
+         "Secondary_Type": "??? (Grass/Ground/Steel)",
+         "Rarity": "Rare",
          "Classification": "",
-         "Evolves_from": "",
+         "Evolves_from": "Burmy",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#413"
       }
    ],
@@ -6419,7 +6419,7 @@
          "National_Dex": "#428"
       }
    ],
-   "mega_lopunny": [
+   "lopunny_mega": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "Fighting",
@@ -6551,7 +6551,7 @@
          "National_Dex": "#438"
       }
    ],
-   "mime_jr.": [
+   "mimejr": [
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "Fairy",
@@ -6635,7 +6635,7 @@
          "National_Dex": "#445"
       }
    ],
-   "mega_garchomp": [
+   "garchomp_mega": [
       {
          "Primary_Type": "Dragon",
          "Secondary_Type": "Ground",
@@ -6683,7 +6683,7 @@
          "National_Dex": "#448"
       }
    ],
-   "mega_lucario": [
+   "lucario_mega": [
       {
          "Primary_Type": "Fighting",
          "Secondary_Type": "Steel",
@@ -6839,7 +6839,7 @@
          "National_Dex": "#460"
       }
    ],
-   "mega_abomasnow": [
+   "abomasnow_mega": [
       {
          "Primary_Type": "Grass ",
          "Secondary_Type": "Ice",
@@ -7031,7 +7031,7 @@
          "National_Dex": "#475"
       }
    ],
-   "mega_gallade": [
+   "gallade_mega": [
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "Fighting",
@@ -7239,11 +7239,11 @@
       {
          "Primary_Type": "Ghost",
          "Secondary_Type": "Dragon",
-         "Rarity": "",
-         "Classification": "",
+         "Rarity": "Legendary",
+         "Classification": "Legendary",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#487"
       }
    ],
@@ -7323,11 +7323,11 @@
       {
          "Primary_Type": "Grass",
          "Secondary_Type": "???",
-         "Rarity": "",
-         "Classification": "",
+         "Rarity": "Common Mythic",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#492"
       }
    ],
@@ -7372,7 +7372,7 @@
          "Primary_Type": "Fire",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7384,7 +7384,7 @@
          "Primary_Type": "Water",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7396,7 +7396,7 @@
          "Primary_Type": "Electric",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7408,7 +7408,7 @@
          "Primary_Type": "Grass",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7420,7 +7420,7 @@
          "Primary_Type": "Ice",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7432,7 +7432,7 @@
          "Primary_Type": "Fighting",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7444,7 +7444,7 @@
          "Primary_Type": "Poison",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7456,7 +7456,7 @@
          "Primary_Type": "Ground",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7468,7 +7468,7 @@
          "Primary_Type": "Flying",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7480,7 +7480,7 @@
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7492,7 +7492,7 @@
          "Primary_Type": "Bug",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7504,7 +7504,7 @@
          "Primary_Type": "Rock",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7516,7 +7516,7 @@
          "Primary_Type": "Ghost",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7528,7 +7528,7 @@
          "Primary_Type": "Dragon",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7540,7 +7540,7 @@
          "Primary_Type": "Dark",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7552,7 +7552,7 @@
          "Primary_Type": "Steel",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7564,7 +7564,7 @@
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -7899,11 +7899,11 @@
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "Flying",
-         "Rarity": "",
+         "Rarity": "Common",
          "Classification": "",
-         "Evolves_from": "",
+         "Evolves_from": "Pidove -> Tranquil",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#521"
       }
    ],
@@ -8051,7 +8051,7 @@
          "National_Dex": "#531"
       }
    ],
-   "mega_audino": [
+   "audino_mega": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "Fairy",
@@ -8375,7 +8375,7 @@
          "National_Dex": "#555"
       }
    ],
-   "darmanitan_zen_mode": [
+   "darmanitanzen": [
       {
          "Primary_Type": "Fire",
          "Secondary_Type": "Psychic",
@@ -8739,11 +8739,11 @@
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "Grass",
-         "Rarity": "",
+         "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "Sawsbuck",
          "National_Dex": "#685"
       }
    ],
@@ -8799,11 +8799,11 @@
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "Grass",
-         "Rarity": "",
+         "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#585"
       }
    ],
@@ -9555,11 +9555,11 @@
       {
          "Primary_Type": "Flying",
          "Secondary_Type": "",
-         "Rarity": "",
-         "Classification": "",
+         "Rarity": "Legendary",
+         "Classification": "Legendary Trio",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#641"
       }
    ],
@@ -9580,7 +9580,7 @@
          "Primary_Type": "Flying",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary Trio",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -9591,11 +9591,11 @@
       {
          "Primary_Type": "Electric",
          "Secondary_Type": "Flying",
-         "Rarity": "",
-         "Classification": "",
+         "Rarity": "Legendary",
+         "Classification": "Legendary Trio",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#642"
       }
    ],
@@ -9616,7 +9616,7 @@
          "Primary_Type": "Electric",
          "Secondary_Type": "Flying",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary Trio",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -9651,11 +9651,11 @@
       {
          "Primary_Type": "Ground",
          "Secondary_Type": "Flying",
-         "Rarity": "",
-         "Classification": "",
+         "Rarity": "Legendary",
+         "Classification": "Legendary Trio",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#645"
       }
    ],
@@ -9676,7 +9676,7 @@
          "Primary_Type": "Ground",
          "Secondary_Type": "Flying",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary Trio",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -9700,7 +9700,7 @@
          "Primary_Type": "Dragon",
          "Secondary_Type": "Ice",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -9712,7 +9712,7 @@
          "Primary_Type": "Dragon",
          "Secondary_Type": "Ice",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -9723,11 +9723,11 @@
       {
          "Primary_Type": "Water",
          "Secondary_Type": "Fighting",
-         "Rarity": "",
-         "Classification": "",
+         "Rarity": "Mythic",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#647"
       }
    ],
@@ -9748,22 +9748,22 @@
          "Primary_Type": "Water",
          "Secondary_Type": "Fighting",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
          "National_Dex": "#647 Resolute"
       }
    ],
-   "meleotta": [
+   "meloetta": [
       {
          "Primary_Type": "Normal",
-         "Secondary_Type": "???",
-         "Rarity": "",
-         "Classification": "",
+         "Secondary_Type": "??? (Psychic/Fighting)",
+         "Rarity": "Mythic",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#648"
       }
    ],
@@ -9784,7 +9784,7 @@
          "Primary_Type": "Normal",
          "Secondary_Type": "Fighting",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -9808,7 +9808,7 @@
          "Primary_Type": "Bug",
          "Secondary_Type": "Steel",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -9820,7 +9820,7 @@
          "Primary_Type": "Bug",
          "Secondary_Type": "Steel",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -9832,7 +9832,7 @@
          "Primary_Type": "Bug",
          "Secondary_Type": "Steel",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -9844,7 +9844,7 @@
          "Primary_Type": "Bug",
          "Secondary_Type": "Steel",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -9959,7 +9959,7 @@
          "National_Dex": "#658"
       }
    ],
-   "ash_greninja": [
+   "greninja_ash": [
       {
          "Primary_Type": "Water",
          "Secondary_Type": "Dark",
@@ -10059,11 +10059,11 @@
       {
          "Primary_Type": "Bug",
          "Secondary_Type": "Flying",
-         "Rarity": "",
+         "Rarity": "Rare",
          "Classification": "",
-         "Evolves_from": "",
+         "Evolves_from": "Scatterbug -> Spewpa",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#666"
       }
    ],
@@ -10331,7 +10331,7 @@
          "National_Dex": "#668"
       }
    ],
-   "flabebe_red_flower": [
+   "flabebe": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10343,7 +10343,7 @@
          "National_Dex": "#669 Red"
       }
    ],
-   "flabebe_yellow_flower": [
+   "flabebe_yellow": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10355,7 +10355,7 @@
          "National_Dex": "#669 Yellow"
       }
    ],
-   "flabebe_orange_flower": [
+   "flabebe_orange": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10367,7 +10367,7 @@
          "National_Dex": "#669 Orange"
       }
    ],
-   "flabebe_blue_flower": [
+   "flabebe_blue": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10379,7 +10379,7 @@
          "National_Dex": "#669 Blue"
       }
    ],
-   "flabebe_white_flower": [
+   "flabebe_white": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10391,7 +10391,7 @@
          "National_Dex": "#669 White"
       }
    ],
-   "floette_red_flower": [
+   "floette": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10403,7 +10403,7 @@
          "National_Dex": "#670 Red"
       }
    ],
-   "floette_yellow_flower": [
+   "floette_yellow": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10415,7 +10415,7 @@
          "National_Dex": "#670 Yellow"
       }
    ],
-   "floette_orange_flower": [
+   "floette_orange": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10427,7 +10427,7 @@
          "National_Dex": "#670 Orange"
       }
    ],
-   "floette_blue_flower": [
+   "floette_blue": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10439,7 +10439,7 @@
          "National_Dex": "#670 Blue"
       }
    ],
-   "floette_white_flower": [
+   "floette_white": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10463,7 +10463,7 @@
          "National_Dex": "#670 Eternal"
       }
    ],
-   "florges_red_flower": [
+   "florges": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10475,7 +10475,7 @@
          "National_Dex": "#671 Red"
       }
    ],
-   "florges_yellow_flower": [
+   "florges_yellow": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10487,7 +10487,7 @@
          "National_Dex": "#671 Yellow"
       }
    ],
-   "florges_orange_flower": [
+   "florges_orange": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10499,7 +10499,7 @@
          "National_Dex": "#671 Orange"
       }
    ],
-   "florges_blue_flower": [
+   "florges_blue": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10511,7 +10511,7 @@
          "National_Dex": "#671 Blue"
       }
    ],
-   "florges_white_flower": [
+   "florges_white": [
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
@@ -10767,15 +10767,15 @@
       {
          "Primary_Type": "Steel",
          "Secondary_Type": "Ghost",
-         "Rarity": "",
+         "Rarity": "Common",
          "Classification": "",
-         "Evolves_from": "",
+         "Evolves_from": "Honedge -> Doublade",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#681"
       }
    ],
-   "aegislash_blade_stance": [
+   "aegislash_blade": [
       {
          "Primary_Type": "Steel",
          "Secondary_Type": "Ghost",
@@ -10787,7 +10787,7 @@
          "National_Dex": "#681 Blade"
       }
    ],
-   "aegislash_shield_stance": [
+   "aegislash_shield": [
       {
          "Primary_Type": "Steel",
          "Secondary_Type": "Ghost",
@@ -10806,7 +10806,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Trade w/Sachet",
+         "Evolves_by": "Trade holding Sachet",
          "Evolves_Into": "Aromatisse",
          "National_Dex": "#682"
       }
@@ -10830,7 +10830,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Trade w/Whipped Dream",
+         "Evolves_by": "Trade holding Whipped Dream",
          "Evolves_Into": "Slurpuff",
          "National_Dex": "#684"
       }
@@ -11283,11 +11283,11 @@
       {
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
-         "Rarity": "",
+         "Rarity": "Legendary",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#716"
       }
    ],
@@ -11331,15 +11331,15 @@
       {
          "Primary_Type": "Dragon",
          "Secondary_Type": "Ground",
-         "Rarity": "",
+         "Rarity": "Legendary",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#718"
       }
    ],
-   "zygarde_10%_form": [
+   "zygarde_10": [
       {
          "Primary_Type": "Dragon",
          "Secondary_Type": "Ground",
@@ -11351,7 +11351,7 @@
          "National_Dex": "#718 10%"
       }
    ],
-   "zygarde_50%_form": [
+   "zygarde_50": [
       {
          "Primary_Type": "Dragon",
          "Secondary_Type": "Ground",
@@ -11363,7 +11363,7 @@
          "National_Dex": "#718 50%"
       }
    ],
-   "zygarde_complete_form": [
+   "zygarde_complete": [
       {
          "Primary_Type": "Dragon",
          "Secondary_Type": "Ground",
@@ -11387,7 +11387,7 @@
          "National_Dex": "#719"
       }
    ],
-   "mega_diancie": [
+   "diancie_mega": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Fairy",
@@ -11402,12 +11402,12 @@
    "hoopa": [
       {
          "Primary_Type": "Psychic",
-         "Secondary_Type": "???",
-         "Rarity": "",
-         "Classification": "",
+         "Secondary_Type": "??? (Ghost/Dark)",
+         "Rarity": "Mythic",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#720"
       }
    ],
@@ -11677,13 +11677,13 @@
    ],
    "oricorio": [
       {
-         "Primary_Type": "???",
+         "Primary_Type": "??? (Fire/Electric/Psychic/Ghost)",
          "Secondary_Type": "Flying",
-         "Rarity": "",
+         "Rarity": "Rare",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#741"
       }
    ],
@@ -11823,11 +11823,11 @@
       {
          "Primary_Type": "Water",
          "Secondary_Type": "",
-         "Rarity": "",
+         "Rarity": "Rare",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#746"
       }
    ],
@@ -12196,7 +12196,7 @@
          "Primary_Type": "Fire",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12208,7 +12208,7 @@
          "Primary_Type": "Water",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12220,7 +12220,7 @@
          "Primary_Type": "Electric",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12232,7 +12232,7 @@
          "Primary_Type": "Grass",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12244,7 +12244,7 @@
          "Primary_Type": "Ice",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12256,7 +12256,7 @@
          "Primary_Type": "Fighting",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12268,7 +12268,7 @@
          "Primary_Type": "Poison",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12280,7 +12280,7 @@
          "Primary_Type": "Ground",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12292,7 +12292,7 @@
          "Primary_Type": "Flying",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12304,7 +12304,7 @@
          "Primary_Type": "Psychic",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12316,7 +12316,7 @@
          "Primary_Type": "Bug",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12328,7 +12328,7 @@
          "Primary_Type": "Rock",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12340,7 +12340,7 @@
          "Primary_Type": "Ghost",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12352,7 +12352,7 @@
          "Primary_Type": "Dragon",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12364,7 +12364,7 @@
          "Primary_Type": "Dark",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12376,7 +12376,7 @@
          "Primary_Type": "Steel",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12388,7 +12388,7 @@
          "Primary_Type": "Fairy",
          "Secondary_Type": "",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "Type: Null",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12407,7 +12407,7 @@
          "National_Dex": "#774 Meteor"
       }
    ],
-   "minior_red_core": [
+   "minior": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Flying",
@@ -12419,7 +12419,7 @@
          "National_Dex": "#774 Red Core"
       }
    ],
-   "minior_orange_core": [
+   "minior_orange": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Flying",
@@ -12431,7 +12431,7 @@
          "National_Dex": "#774 Orange Core"
       }
    ],
-   "minior_yellow_core": [
+   "minior_yellow": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Flying",
@@ -12443,7 +12443,7 @@
          "National_Dex": "#774 Yellow Core"
       }
    ],
-   "minior_green_core": [
+   "minior_green": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Flying",
@@ -12455,7 +12455,7 @@
          "National_Dex": "#774 Green Core"
       }
    ],
-   "minior_blue_core": [
+   "minior_blue": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Flying",
@@ -12467,7 +12467,7 @@
          "National_Dex": "#774 Blue Core"
       }
    ],
-   "minior_indigo_core": [
+   "minior_indigo": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Flying",
@@ -12479,7 +12479,7 @@
          "National_Dex": "#774 Indigo Core"
       }
    ],
-   "minior_violet_core": [
+   "minior_violet": [
       {
          "Primary_Type": "Rock",
          "Secondary_Type": "Flying",
@@ -12531,11 +12531,11 @@
       {
          "Primary_Type": "Ghost",
          "Secondary_Type": "Fairy",
-         "Rarity": "",
+         "Rarity": "Rare",
          "Classification": "",
          "Evolves_from": "",
          "Evolves_by": "",
-         "Evolves_Into": "",
+         "Evolves_Into": "End of Line",
          "National_Dex": "#778"
       }
    ],
@@ -12635,7 +12635,7 @@
          "National_Dex": "#784"
       }
    ],
-   "tapu_koko": [
+   "tapukoko": [
       {
          "Primary_Type": "Electric",
          "Secondary_Type": "Fairy",
@@ -12647,7 +12647,7 @@
          "National_Dex": "#785"
       }
    ],
-   "tapu_lele": [
+   "tapulele": [
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "Fairy",
@@ -12669,7 +12669,7 @@
          "National_Dex": "#788"
       }
    ],
-   "tapu_bulu": [
+   "tapubulu": [
       {
          "Primary_Type": "Grass",
          "Secondary_Type": "Fairy",
@@ -12700,7 +12700,7 @@
          "Rarity": "Legendary",
          "Classification": "Legendary",
          "Evolves_from": "Cosmog",
-         "Evolves_by": "Lvl 53 when lvled in a channel with Sun **OR*** Moon in the name",
+         "Evolves_by": "Lvl 53 when leveled in a channel with Sun **OR*** Moon in the name",
          "Evolves_Into": "Solgaleo ***OR*** Lunala",
          "National_Dex": "#790"
       }
@@ -12825,24 +12825,24 @@
          "National_Dex": "#800"
       }
    ],
-   "necrozma_dusk_mane": [
+   "necrozma_duskmane": [
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "Steel",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
          "National_Dex": "#800 Dusk Mane"
       }
    ],
-   "necrozma_dawn_wings": [
+   "necrozma_dawnwings": [
       {
          "Primary_Type": "Psychic",
          "Secondary_Type": "Ghost",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12854,7 +12854,7 @@
          "Primary_Type": "Psychic",
          "Secondary_Type": "Dragon",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Legendary",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12878,7 +12878,7 @@
          "Primary_Type": "Steel",
          "Secondary_Type": "Fairy",
          "Rarity": "Not Implemented",
-         "Classification": "",
+         "Classification": "Mythic",
          "Evolves_from": "",
          "Evolves_by": "",
          "Evolves_Into": "End of Line",
@@ -12904,7 +12904,7 @@
          "Rarity": "Ultra Beast",
          "Classification": "Ultra Beast",
          "Evolves_from": "",
-         "Evolves_by": "Teach Dragon Pulse and lvl",
+         "Evolves_by": "Teach Dragon Pulse and level",
          "Evolves_Into": "Naganadel",
          "National_Dex": "#803"
       }
