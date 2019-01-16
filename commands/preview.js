@@ -43,8 +43,8 @@ exports.run = async (bot, message, args) => {
  .addField("Evolves by:", p.Evolves_by || "N/A", true) 
  .addField("Evolves into:", p.Evolves_Into || "N/A", true) 
  .addField("Evolves from:", p.Evolves_from || "N/A", true)
- .setThumbnail(`https://play.pokemonshowdown.com/sprites/xyani/${args.join(" ").toLowerCase()}.gif`)
- .setImage(`https://play.pokemonshowdown.com/sprites/xyani-shiny/${args.join(" ").toLowerCase()}.gif`)
+ .setThumbnail(`https://play.pokemonshowdown.com/sprites/xyani/${args.join("-").toLowerCase()}.gif`)
+ .setImage(`https://play.pokemonshowdown.com/sprites/xyani-shiny/${args.join("-").toLowerCase()}.gif`)
 message.channel.send(embed);
 
 };
