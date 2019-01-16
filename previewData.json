@@ -6263,6 +6263,18 @@
          "National_Dex": "#420"
       }
    ],
+   "cherrim": [
+      {
+         "Primary_Type": "Grass",
+         "Secondary_Type": "",
+         "Rarity": "Rare",
+         "Classification": "",
+         "Evolves_from": "Cherubi",
+         "Evolves_by": "",
+         "Evolves_Into": "End of Line",
+         "National_Dex": "#421"
+      }
+   ],
    "cherrim_overcast": [
       {
          "Primary_Type": "Grass",
@@ -10583,7 +10595,7 @@
          "National_Dex": "#676"
       }
    ],
-   "furfrou_heart_trim": [
+   "furfrou_heart": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "",
@@ -10595,7 +10607,7 @@
          "National_Dex": "#676 Heart"
       }
    ],
-   "furfrou_star_trim": [
+   "furfrou_star": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "",
@@ -10607,7 +10619,7 @@
          "National_Dex": "#676 Star"
       }
    ],
-   "furfrou_diamond_trim": [
+   "furfrou_diamond": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "",
@@ -10619,7 +10631,7 @@
          "National_Dex": "#676 Diamond"
       }
    ],
-   "furfrou_debutante_trim": [
+   "furfrou_debutante": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "",
@@ -10631,7 +10643,7 @@
          "National_Dex": "#676 Debutante"
       }
    ],
-   "furfrou_matron_trim": [
+   "furfrou_matron": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "",
@@ -10643,7 +10655,7 @@
          "National_Dex": "#676 Matron"
       }
    ],
-   "furfrou_dandy_trim": [
+   "furfrou_dandy": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "",
@@ -10655,7 +10667,7 @@
          "National_Dex": "#676 Dandy"
       }
    ],
-   "furfrou_la reine_trim": [
+   "furfrou_lareine": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "",
@@ -10667,7 +10679,7 @@
          "National_Dex": "#676 La Reine"
       }
    ],
-   "furfrou_kabuki_trim": [
+   "furfrou_kabuki": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "",
@@ -10679,7 +10691,7 @@
          "National_Dex": "#676 Kabuki"
       }
    ],
-   "furfrou_pharoh_trim": [
+   "furfrou_pharoh": [
       {
          "Primary_Type": "Normal",
          "Secondary_Type": "",
