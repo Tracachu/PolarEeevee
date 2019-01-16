@@ -16,7 +16,7 @@ exports.run = async (bot, message, args) => {
  if(message.content.toLowerCase().includes("mega")) {
 
     let embed = new Discord.RichEmbed()
-    .setColor("BLUE")
+    .setColor("WHITE")
     .setTitle(`Pokedex results for ` + `\`\`\`${args.join(" ")}\`\`\``)
     .addField("National Dex Number:", p.National_Dex || "N/A", true)
     .addField("Primary Type:", p.Primary_Type || "N/A", true) 
@@ -33,7 +33,7 @@ exports.run = async (bot, message, args) => {
  }
 
  let embed = new Discord.RichEmbed()
- .setColor("BLUE")
+ .setColor("BLACK")
  .setTitle(`Pokedex results for ` + `\`\`\`${args.join(" ")}\`\`\``)
  .addField("National Dex Number:", p.National_Dex || "N/A", true)
  .addField("Primary Type:", p.Primary_Type || "N/A", true) 
