@@ -42,7 +42,9 @@ exports.run = (bot, message, args, prefix) => {
 
     let result = Math.floor((Math.random() * replies.length));
 
-    message.channel.send(replies[result]); 
+    if(replies[result] === "embed2") return message.channel.send(embed2);
+    if(replies[result] === "embed3") return message.channel.send(embed3);
+    if(replies[result] === "embed4") return message.channel.send(embed4);
 
 
     
