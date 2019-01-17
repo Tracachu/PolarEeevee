@@ -6,7 +6,7 @@ exports.run = (bot, message, args, prefix) => {
     if(message.author.bot) return;
  
     
-     if(!message.mentions.members.first()) {
+     if(!args[0]) {
 
         let embed1 = new Discord.RichEmbed()
         .setColor("BLACK")
