@@ -14,7 +14,6 @@ exports.run = (bot, message, args, prefix) => {
         .setImage("https://i.imgur.com/eBUjz6w.gif")
         message.channel.send(embed1)
 
-        return;
         
     }
     
