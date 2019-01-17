@@ -22,7 +22,7 @@ exports.run = (bot, message, args, prefix) => {
     let replies = ["emebd2", "embed3", "embed4"];
     
     let user = message.mentions.users.first();
-    let member = bot.guild.members(user.id);
+    let member = bot.guild.members.get(user.id);
 
     let embed2 = new Discord.RichEmbed()
     .setColor("RED")
