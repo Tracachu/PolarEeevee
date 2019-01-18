@@ -306,7 +306,7 @@
          "Rarity": "Common",
          "Classification": "Alolan Form",
          "Evolves_from": "",
-         "Evolves_by": "Not Implemented",
+         "Evolves_by": "Lvl 20",
          "Evolves_Into": "Alolan Raticate",
          "National_Dex": "#019 Alolan"
       }
@@ -438,7 +438,7 @@
          "Rarity": "Common",
          "Classification": "Alolan Form",
          "Evolves_from": "",
-         "Evolves_by": "Not Implemented",
+         "Evolves_by": "Ice Stone",
          "Evolves_Into": "Alolan Sandslash",
          "National_Dex": "#027 Alolan"
       }
@@ -459,7 +459,7 @@
       {
          "Primary_Type": "Ice",
          "Secondary_Type": "Steel",
-         "Rarity": "Redeem Only",
+         "Rarity": "Redeem or Evolve",
          "Classification": "",
          "Evolves_from": "Alolan Sandshrew",
          "Evolves_by": "",
@@ -594,7 +594,7 @@
          "Rarity": "Uncommon",
          "Classification": "Alolan Form",
          "Evolves_from": "",
-         "Evolves_by": "Not Implemented",
+         "Evolves_by": "Ice Stone",
          "Evolves_Into": "Alolan Ninetales",
          "National_Dex": "#037 Alolan"
       }
@@ -774,7 +774,7 @@
          "Rarity": "Common",
          "Classification": "Alolan Form",
          "Evolves_from": "",
-         "Evolves_by": "Not Implemented",
+         "Evolves_by": "Lvl 26",
          "Evolves_Into": "Alolan Dugtrio",
          "National_Dex": "#050 Alolan"
       }
@@ -822,7 +822,7 @@
          "Rarity": "Common",
          "Classification": "Alolan Form",
          "Evolves_from": "",
-         "Evolves_by": "Not Implemented",
+         "Evolves_by": "Friendship Bracelet",
          "Evolves_Into": "Alolan Persian",
          "National_Dex": "#052 Alolan"
       }
@@ -843,7 +843,7 @@
       {
          "Primary_Type": "Dark",
          "Secondary_Type": "",
-         "Rarity": "Redeem Only",
+         "Rarity": "Redeem or Evolve",
          "Classification": "Alolan Form",
          "Evolves_from": "Alolan Meowth",
          "Evolves_by": "",
@@ -1122,7 +1122,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Not Implemented",
+         "Evolves_by": "Lvl 25",
          "Evolves_Into": "Alolan Graveler",
          "National_Dex": "#074 Alolan"
       }
@@ -1146,7 +1146,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "Alolan Geodude",
-         "Evolves_by": "Not Implemented",
+         "Evolves_by": "Trade",
          "Evolves_Into": "Alolan Golem",
          "National_Dex": "#075 Alolan"
       }
@@ -1338,7 +1338,7 @@
          "Rarity": "Common",
          "Classification": "Alolan Form",
          "Evolves_from": "",
-         "Evolves_by": "Not Implemented",
+         "Evolves_by": "Lvl 38",
          "Evolves_Into": "Alolan Muk",
          "National_Dex": "#088 Alolan"
       }
@@ -11946,7 +11946,7 @@
          "Rarity": "Common",
          "Classification": "",
          "Evolves_from": "",
-         "Evolves_by": "Not Implemented",
+         "Evolves_by": "Lvl 34 in a Day Channel",
          "Evolves_Into": "Lurantis",
          "National_Dex": "#753"
       }
