@@ -6,7 +6,7 @@ exports.run = (bot, message, args, prefix) => {
     if(message.author.bot) return;
  
     
-     if(args[0]){
+     if(!args[0]){
 
         let embed1 = new Discord.RichEmbed()
         .setColor("BLACK")
@@ -17,37 +17,35 @@ exports.run = (bot, message, args, prefix) => {
         
     }
     
-
-    let replies = ["emebd2", "embed3", "embed4"];
+    if(message.mentions.users.first()) {
+         let replies = ["embed2", "embed3", "embed4"];
     
-    let user = message.mentions.users.first();
-    let member = message.guild.members.get(user.id);
+         let user = message.mentions.users.first();
+         let member = bot.guild.member(user.id);
 
-    let embed2 = new Discord.RichEmbed()
-    .setColor("RED")
-    .setTitle(`Success! The wild ${member.user.tag} was caught!`) 
-    .setImage("https://i.imgur.com/Y2auGcZ.gif");
+         let embed2 = new Discord.RichEmbed()
+         .setColor("RED")
+         .setTitle(`Success! The wild ${member.user.tag} was caught!`) 
+         .setImage("https://i.imgur.com/Y2auGcZ.gif");
 
-    let embed3 = new Discord.RichEmbed()
-    .setColor("RED")
-    .setTitle(`Looks like you tried a little too hard there...`)
-    .setImage("https://i.imgur.com/XD8e7al.gif");
+         let embed3 = new Discord.RichEmbed()
+         .setColor("RED")
+         .setTitle(`Looks like you tried a little too hard there...`)
+         .setImage("https://i.imgur.com/XD8e7al.gif");
     
-    let embed4 = new Discord.RichEmbed()
-    .setColor("RED")
-    .setTitle(`Ono, it looks like ${member.user.tag} doesn't like their new home...`) 
-    .setImage("https://i.imgur.com/Q04RAEl.gif");
+         let embed4 = new Discord.RichEmbed()
+         .setColor("RED")
+         .setTitle(`Ono, it looks like ${member.user.tag} doesn't like their new home...`) 
+         .setImage("https://i.imgur.com/Q04RAEl.gif");
 
 
-    let result = Math.floor((Math.random() * replies.length));
+         let result = Math.floor((Math.random() * replies.length));
 
-    if(replies[result] === "embed2") return message.channel.send(embed2);
-    if(replies[result] === "embed3") return message.channel.send(embed3);
-    if(replies[result] === "embed4") return message.channel.send(embed4);
+         message.channel.send(replies[result]); 
+    }
+     
 
 
     
     
 }
-
-//np
