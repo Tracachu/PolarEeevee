@@ -1,16 +1,24 @@
-exports.run = (client, message, args) => {
-    const config = require("../config.json");
-    const group = message.channel;
-    const Discord = require("discord.js");
-    const groupMember = message.author;
-    
-    const embed = new Discord.RichEmbed()
-    .setTitle(groupMember.username)
-    .setThumbnail(groupMember.avatarURL)
-    .setColor(3447003)
-    .addField(`User Name`, `${groupMember.username} (${groupMember.tag})`)
-    .addField("User ID", groupMember.id)
-    .addField("Joined Discord", groupMember.createdAt)
-    .addField(`Other Info`, `Status: ${groupMember.presence.status}\nDiscrim: ${groupMember.discriminator}\nBot: ${groupMember.bot}`);
-    message.channel.send({embed});
-    }
+const Discord = require("discord.js");
+
+exports.run = (bot, message, args, prefix) => {
+
+//Check if a user has been mentioned
+if(!message.mentions.users.first()) return message.channel.send("Sorry! Please mention a user."); //What shall it say if a user hasn't been mentioned?
+
+//Get the user
+let member = message.guild.member(message.mentions.users.first().id);
+if(!member) return message.reply("Preeeeeetty sure that's not a real person.");
+
+//Send the embed with the info
+let embed = new Discord.RichEmbed()
+.setColor("RANDOM") //RAINBOWS xD JK xD
+.setTitle(`Information for ${member.user.tag}`)
+.setThumbnail(member.user.avatarURL)
+.addField(`User Name`, `${groupMember.username} (${groupMember.tag})`)
+.addField("ID", member.id)
+.addField("Discriminator", member.user.discriminator)
+.addField("Joined Discord at", member.user.createdAt)
+.addField("Joined Server on", guild.joinedAt)
+message.channel.send(embed);
+
+};
