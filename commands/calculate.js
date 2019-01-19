@@ -20,11 +20,11 @@ exports.run = (bot, message, args, prefix) => {
     }
 
     const embed = new Discord.RichEmbed()
-        .setThumbnail("https://i.imgur.com/4kXujAW.png")
+        .setThumbnail("https://i.imgur.com/QQIsusW.png")
         .setColor('RANDOM')
         .addField("**Input:**", question, true)
         .addField("**Output:**", answer)
-        .setFooter(`Image made my MatthewJ217#3287`)
+        .setFooter(`-`)
 
     message.channel.send({
         embed
