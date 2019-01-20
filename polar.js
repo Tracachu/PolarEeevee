@@ -10,14 +10,6 @@ let prefix = settings.prefix;
 let ownerID = settings.ownerID;
 let clever = new cleverbot("GS6xN3FmOdX3aAmg", "gigAgcYDhxvpl3mRkcm9bGIT28Z00pZO");
 
-music(bot, {
-    apikey: 'AIzaSyChV72AqgUOWab694WT3zdK6EIbY0EGRuc', //dont show this to anyone!
-      prefix: '&',
-      global: false,
-      maxQueueSize: 100,
-      deletemsg: false
-  });
-
 bot.on("guildMemberAdd",  member => {
  const wc = [
     `Welcome ${member.user.username} to ${member.guild.name}. :tada:`,
