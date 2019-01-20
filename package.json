@@ -15,8 +15,6 @@
     "clevertype": "^2.0.4",
     "d20": "^1.4.1",
     "discord.js": "^11.4.2",
-    "ffmpeg": "0.0.4",
-    "ffmpeg-binaries": "^4.0.0",
     "fortnite": "^4.1.1",
     "fs": "0.0.1-security",
     "get-azlyrics": "^1.0.1",
