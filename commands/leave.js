@@ -12,6 +12,17 @@ if(!server.queue[0]) return message.channel.send(`${bot.emojis.get("536599762195
 //Leave the voice channel
 message.guild.me.voiceChannel.leave();
 
+//Reset the server
+bot.serverQueues[message.guild.id] = {
+
+    queue: [],
+    songNames: [],
+    songRequesters: [],
+    repeat: false,
+    volume: 0
+
+}
+
 //Send the message
 message.channel.send(`${bot.emojis.get("536599762195972117")} | Leaving...`);
 
