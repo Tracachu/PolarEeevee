@@ -2,6 +2,9 @@ const Discord = require("discord.js");
 const fs = require("fs");
 let bot = new Discord.Client();
 
+//Variables
+let clever = new cleverbot("GS6xN3FmOdX3aAmg", "gigAgcYDhxvpl3mRkcm9bGIT28Z00pZO");
+
 let settings = require("./settings.json");
 
 let prefix = settings.prefix;
@@ -41,6 +44,38 @@ bot.on("message", message => {
 
     let args = message.content.slice(prefix.length).trim().split(" ");
     let cmd = args.shift().toLowerCase();
+ 
+        //Initialize Cleverbot
+    clever.setNick("PolarDiscordBot");
+    clever.create(function (err, session) {
+
+    //Cleverbot
+    if(message.content.startsWith(bot.user.toString())) {
+
+            //The question
+            let askArgs = message.content.slice(22).trim().split(" ");
+
+            //Start typing
+            message.channel.startTyping();
+
+            //Ask the bot
+            clever.ask(askArgs.join(" "), function (err, response) { 
+                //If there is an error
+                if(err) console.log(err);
+
+                //Respond
+                let embed = new Discord.RichEmbed()
+                .setColor(settings.embedColor)
+                .setTitle(`${bot.user.username}`)
+                .setThumbnail(bot.user.displayAvatarURL)
+                .setDescription(`**${response}**`)
+                message.channel.send(embed)
+
+                //Stop typing
+                message.channel.stopTyping();
+            });
+        }
+    });
 
     if(!bot.serverQueues[message.guild.id]) bot.serverQueues[message.guild.id] = {
 
