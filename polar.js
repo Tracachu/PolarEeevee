@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const cleverbot = require("cleverbot.io");
 const fs = require("fs");
 let bot = new Discord.Client();
 
