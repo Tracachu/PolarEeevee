@@ -66,7 +66,7 @@ bot.on("message", message => {
 
                 //Respond
                 let embed = new Discord.RichEmbed()
-                .setColor(settings.embedColor)
+                .setColor("BLUE")
                 .setTitle(`${bot.user.username}`)
                 .setThumbnail(bot.user.displayAvatarURL)
                 .setDescription(`**${response}**`)
