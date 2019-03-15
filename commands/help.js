@@ -22,6 +22,7 @@ exports.run = (bot, message, args, prefix) => {
             .addField(`${prefix}calculate (Equation)`, `Solves the equation you gave Polar. It works as a Scientific Calculator too`)
             .addField(`${prefix}weather (Location)`, "Gets the current weather infomation for the location you provided")
             .addField(`${prefix}news (Subject)`, `Sends the latest news on the subject you chose`)
+            .addField(`${prefix}invite`, `Invite Lil' Eevee to your server!`)
             message.author.send(Embed2)
          
  
