@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, args) => {
    let gRole;
 
   //Get the role
-  message.guild.roles.forEach((r), => {
+  message.guild.roles.forEach((r), {
 
     if(r.name.toLowerCase() === role.toLowerCase) gRole = r;
 
