@@ -7,7 +7,7 @@ exports.run = (bot, message, args, prefix) => {
 // Get a random joke
 joker.getRandomJoke (function(joke) {
 
-  console.log(joke);
+  console.log(flirt);
   const embed = new Discord.RichEmbed()
   .setTitle("Random Joke")
   .setColor("RANDOM")
