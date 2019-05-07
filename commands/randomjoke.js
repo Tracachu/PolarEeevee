@@ -11,7 +11,7 @@ joker.getRandomJoke (function(joke) {
   const embed = new Discord.RichEmbed()
   .setTitle("Random Joke")
   .setColor("RANDOM")
-  .setThumbnail(`https://i.imgur.com/vQRV5ca.png`)
+  .setThumbnail(`https://i.imgur.com/CqPloZ5.png`)
   .setFooter("Requested by" + ` ${message.author.username}` ) // You need a + also thats how you show the user name
   .setDescription(joke) // I want the joke to go here, how would that go? Ez Pz Stronk!
   message.channel.send({embed});
